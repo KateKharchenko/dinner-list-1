@@ -1,0 +1,51 @@
+html {}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	border: 10px solid #fff;
+	background-color: #3c3f44;
+	min-height: 100vh;
+	margin: 0;
+}
+
+header {
+	padding: 20px;
+	background-color: #4a4f56;
+	outline: 1px solid blue;
+}
+
+main {
+	width: 60%;
+	padding: 20px;
+	margin: 0 auto;
+	outline: 1px solid red;
+}
+
+li {
+	outline: 1px solid yellow;
+	background-color: #4a4f56;
+	border-bottom: 2px solid #4a4f56;
+	border-top: 2px solid #4a4f56;
+}
+
+li:hover,
+li:focus {
+	border-color: #fff;
+} 
+
+label {
+	padding: 10px;
+	outline: 1px solid red;
+	display: block;
+}
+
+input:checked + span {
+	text-decoration: line-through;
+}
+
+input, span {
+	vertical-align: middle;
+}
