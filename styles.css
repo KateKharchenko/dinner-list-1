@@ -13,6 +13,11 @@ body {
 
 header {
 	padding: 20px;
+	/* background-color: #4a4f56; */
+	background-color: #fff;
+	outline: 1px solid blue;
+
+
 	background-color: #4a4f56;
 	outline: 1px solid grey;
 }
@@ -45,9 +50,16 @@ label {
 }
 
 input:checked + span {
-	text-decoration: line-through;
+	/* text-decoration: line-through; */
+	text-decoration: none;
 }
 
 input, span {
 	vertical-align: middle;
+}
+
+.test bla-bla {
+	color: #a5f;
+	background-color: #fff;
+	text-decoration: overline;
 }
