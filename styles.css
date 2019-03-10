@@ -13,10 +13,15 @@ body {
 
 header {
 	padding: 20px;
+<<<<<<< HEAD
 	/* background-color: #4a4f56; */
 	background-color: #fff;
 	outline: 1px solid blue;
 
+=======
+	background-color: #4a4f56;
+	outline: 1px solid grey;
+>>>>>>> 7c43f475205314d7a2e61cf9682ddbab29872371
 }
 
 main {
@@ -31,7 +36,7 @@ form {
 }
 
 li {
-	background-color: #4a4f56;
+	background-color: #4a4f65;
 	border-bottom: 2px solid #4a4f56;
 	border-top: 2px solid #4a4f56;
 }
